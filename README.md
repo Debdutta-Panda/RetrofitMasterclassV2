@@ -8,8 +8,8 @@ Add the following dependency in module level build gradle file
 implementation("com.squareup.retrofit2:retrofit:2.9.0")
 ```
 
-# Mechanism
-Retrofit has a mechanis
+## Mechanism
+Retrofit has the following steps to call an api
 
 1. Create api interface
 2. Create retrofit instance
@@ -17,7 +17,10 @@ Retrofit has a mechanis
 4. Call api
 5. Get data
 
+## Cre
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjc1NDgxMywtMTk4NDUwOTM5OF19
+eyJoaXN0b3J5IjpbMTk3NzcyOTMzNCwtMTk4NDUwOTM5OF19
 -->
