@@ -23,7 +23,7 @@ In Retrofit, the API interface is a fundamental part of defining and structuring
 // example api interface
 interface ApiService{  
     @GET("path/to/your/api")  
-    fun data(): Call<User>  
+    fun data(): Call<ResponseBody>  
 }
 ```
 
@@ -36,9 +36,10 @@ val retrofit = Retrofit
     .build()
 ```
 
+## Api Service Instance
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjkxMzQ3LC03NjgzOTA5NTYsLTIwOT
-E2NjAzMiwtNjM3MzQ2MDIsNjgzMTMxMTEwLC0yMjU4OTU1OTEs
-MTg0NzA1NzkxLC0xOTg0NTA5Mzk4XX0=
+eyJoaXN0b3J5IjpbMjA4Njk3NTU2OSwxNjQ2OTEzNDcsLTc2OD
+M5MDk1NiwtMjA5MTY2MDMyLC02MzczNDYwMiw2ODMxMzExMTAs
+LTIyNTg5NTU5MSwxODQ3MDU3OTEsLTE5ODQ1MDkzOThdfQ==
 -->
