@@ -72,10 +72,13 @@ call.enqueue(object: Callback<ResponseBody>{
 ```
 
 ## Arrange REST Api
+If you don't have real api then you can use fake/mock/free REST apis. Some free apis are:
+10
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjU1MzU5MSwtMjg1MzM2NzI3LC0xOT
-YwMDkzMzEzLDQyNTM4ODEwNSwtNTMzOTA3NTg4LC0xOTAzOTgz
-Mjc2LDMwNTE3MzIyMywyMDg2OTc1NTY5LDE2NDY5MTM0NywtNz
-Y4MzkwOTU2LC0yMDkxNjYwMzIsLTYzNzM0NjAyLDY4MzEzMTEx
-MCwtMjI1ODk1NTkxLDE4NDcwNTc5MSwtMTk4NDUwOTM5OF19
+eyJoaXN0b3J5IjpbLTE3MzYwNDAxNjIsLTI4NTMzNjcyNywtMT
+k2MDA5MzMxMyw0MjUzODgxMDUsLTUzMzkwNzU4OCwtMTkwMzk4
+MzI3NiwzMDUxNzMyMjMsMjA4Njk3NTU2OSwxNjQ2OTEzNDcsLT
+c2ODM5MDk1NiwtMjA5MTY2MDMyLC02MzczNDYwMiw2ODMxMzEx
+MTAsLTIyNTg5NTU5MSwxODQ3MDU3OTEsLTE5ODQ1MDkzOThdfQ
+==
 -->
