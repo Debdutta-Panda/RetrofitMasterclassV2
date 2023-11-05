@@ -18,9 +18,10 @@ Retrofit has the following steps to call an api
 5. Get data
 
 ## Api Interface
+In Retrofit, the API interface is a fundamental part of defining and structuring your network requests. It's an interface that specifies the API endpoints, HTTP methods, request parameters, and expected response types.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjAwNjg3MywtMTk4NDUwOTM5OF19
+eyJoaXN0b3J5IjpbMTg0NzA1NzkxLC0xOTg0NTA5Mzk4XX0=
 -->
