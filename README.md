@@ -53,10 +53,19 @@ There are many way to call an api:
 6. Direct Data
 ```kt
 val call = apiService.data()
+call.enqueue(object: Callback<ResponseBody>{
+    override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+        TODO("Not yet implemented")
+    }
 
+    override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+        TODO("Not yet implemented")
+    }
+
+})
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzU5NDIxNCwtMTkwMzk4MzI3NiwzMD
+eyJoaXN0b3J5IjpbLTUzMzkwNzU4OCwtMTkwMzk4MzI3NiwzMD
 UxNzMyMjMsMjA4Njk3NTU2OSwxNjQ2OTEzNDcsLTc2ODM5MDk1
 NiwtMjA5MTY2MDMyLC02MzczNDYwMiw2ODMxMzExMTAsLTIyNT
 g5NTU5MSwxODQ3MDU3OTEsLTE5ODQ1MDkzOThdfQ==
