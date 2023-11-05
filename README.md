@@ -42,15 +42,18 @@ The API service instance in Retrofit is where you put your API interface into ac
 val apiService = retrofit.create(ApiService::class.java)
 ```
 
-## Call Api
+## Callin an Api
 
 There are many way to call an api:
 1. Call Enque
 2. Call Execute
 3. Call Await
-4. 
+4. Call AwaitResponse
+5. Direct Response
+6. Direct Data
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk4NjcwMTAsMzA1MTczMjIzLDIwOD
+eyJoaXN0b3J5IjpbLTEyMTY3MTM3NzcsMzA1MTczMjIzLDIwOD
 Y5NzU1NjksMTY0NjkxMzQ3LC03NjgzOTA5NTYsLTIwOTE2NjAz
 MiwtNjM3MzQ2MDIsNjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0Nz
 A1NzkxLC0xOTg0NTA5Mzk4XX0=
