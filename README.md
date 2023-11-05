@@ -74,13 +74,13 @@ call.enqueue(object: Callback<ResponseBody>{
 ## Arrange REST Api
 If you don't have real api then you can use fake/mock/free REST apis. Some free apis are:
 1. Json Placeholder: https://jsonplaceholder.typicode.com/
-2. Webhook site: https://webhook.site/
+2. Reqres: https://reqres.in/
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjcwNjM2ODcsLTI4NTMzNjcyNywtMT
-k2MDA5MzMxMyw0MjUzODgxMDUsLTUzMzkwNzU4OCwtMTkwMzk4
-MzI3NiwzMDUxNzMyMjMsMjA4Njk3NTU2OSwxNjQ2OTEzNDcsLT
-c2ODM5MDk1NiwtMjA5MTY2MDMyLC02MzczNDYwMiw2ODMxMzEx
-MTAsLTIyNTg5NTU5MSwxODQ3MDU3OTEsLTE5ODQ1MDkzOThdfQ
-==
+eyJoaXN0b3J5IjpbLTk5NjU2NTA5OCwtMTQ2NzA2MzY4NywtMj
+g1MzM2NzI3LC0xOTYwMDkzMzEzLDQyNTM4ODEwNSwtNTMzOTA3
+NTg4LC0xOTAzOTgzMjc2LDMwNTE3MzIyMywyMDg2OTc1NTY5LD
+E2NDY5MTM0NywtNzY4MzkwOTU2LC0yMDkxNjYwMzIsLTYzNzM0
+NjAyLDY4MzEzMTExMCwtMjI1ODk1NTkxLDE4NDcwNTc5MSwtMT
+k4NDUwOTM5OF19
 -->
