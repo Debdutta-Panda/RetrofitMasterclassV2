@@ -52,11 +52,11 @@ There are many way to call an api:
 5. Direct Response
 6. Direct Data
 ```kt
-
+val call = apiService.data()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDAyNzQyOCwzMDUxNzMyMjMsMjA4Nj
-k3NTU2OSwxNjQ2OTEzNDcsLTc2ODM5MDk1NiwtMjA5MTY2MDMy
-LC02MzczNDYwMiw2ODMxMzExMTAsLTIyNTg5NTU5MSwxODQ3MD
-U3OTEsLTE5ODQ1MDkzOThdfQ==
+eyJoaXN0b3J5IjpbLTE5MDM5ODMyNzYsMzA1MTczMjIzLDIwOD
+Y5NzU1NjksMTY0NjkxMzQ3LC03NjgzOTA5NTYsLTIwOTE2NjAz
+MiwtNjM3MzQ2MDIsNjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0Nz
+A1NzkxLC0xOTg0NTA5Mzk4XX0=
 -->
