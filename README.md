@@ -71,9 +71,9 @@ call.enqueue(object: Callback<ResponseBody>{
 })
 ```
 
-## Arran
+## Arrange REST Api
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDgwMzUyNSwtMjg1MzM2NzI3LC0xOT
+eyJoaXN0b3J5IjpbLTg5NjU1MzU5MSwtMjg1MzM2NzI3LC0xOT
 YwMDkzMzEzLDQyNTM4ODEwNSwtNTMzOTA3NTg4LC0xOTAzOTgz
 Mjc2LDMwNTE3MzIyMywyMDg2OTc1NTY5LDE2NDY5MTM0NywtNz
 Y4MzkwOTU2LC0yMDkxNjYwMzIsLTYzNzM0NjAyLDY4MzEzMTEx
