@@ -12,7 +12,8 @@ implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
 1. Create api interface
 2. Create retrofit instance
-3. Create api ser
+3. Create api service instance
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjQ0MzgzOF19
+eyJoaXN0b3J5IjpbLTE5ODQ1MDkzOThdfQ==
 -->
