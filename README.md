@@ -51,10 +51,12 @@ There are many way to call an api:
 4. Call AwaitResponse
 5. Direct Response
 6. Direct Data
+```kt
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY3MTM3NzcsMzA1MTczMjIzLDIwOD
-Y5NzU1NjksMTY0NjkxMzQ3LC03NjgzOTA5NTYsLTIwOTE2NjAz
-MiwtNjM3MzQ2MDIsNjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0Nz
-A1NzkxLC0xOTg0NTA5Mzk4XX0=
+eyJoaXN0b3J5IjpbLTM4NDAyNzQyOCwzMDUxNzMyMjMsMjA4Nj
+k3NTU2OSwxNjQ2OTEzNDcsLTc2ODM5MDk1NiwtMjA5MTY2MDMy
+LC02MzczNDYwMiw2ODMxMzExMTAsLTIyNTg5NTU5MSwxODQ3MD
+U3OTEsLTE5ODQ1MDkzOThdfQ==
 -->
