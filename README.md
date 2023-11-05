@@ -27,8 +27,11 @@ interface ApiService{
 }
 ```
 
+## Retrofit Instance
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzM0NjAyLDY4MzEzMTExMCwtMjI1OD
-k1NTkxLDE4NDcwNTc5MSwtMTk4NDUwOTM5OF19
+eyJoaXN0b3J5IjpbLTIwOTE2NjAzMiwtNjM3MzQ2MDIsNjgzMT
+MxMTEwLC0yMjU4OTU1OTEsMTg0NzA1NzkxLC0xOTg0NTA5Mzk4
+XX0=
 -->
