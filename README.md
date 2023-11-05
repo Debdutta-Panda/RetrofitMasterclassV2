@@ -28,10 +28,11 @@ interface ApiService{
 ```
 
 ## Retrofit Instance
+A Retrofit instance in Android is a central component of the Retrofit library. It serves as the core configuration hub, responsible for defining how network requests are made. When creating a Retrofit instance, you specify essential details such as the base URL of the API, the converter for data serialization and deserialization (typically JSON), and any custom HTTP client settings. This instance acts as the bridge between your API service interface and the actual HTTP requests, ensuring that the requests are made according to your defined settings. By configuring the Retrofit instance appropriately, you can streamline the entire network communication process, making it efficient, robust, and tailored to your application's specific needs.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE2NjAzMiwtNjM3MzQ2MDIsNjgzMT
-MxMTEwLC0yMjU4OTU1OTEsMTg0NzA1NzkxLC0xOTg0NTA5Mzk4
-XX0=
+eyJoaXN0b3J5IjpbLTc2ODM5MDk1NiwtMjA5MTY2MDMyLC02Mz
+czNDYwMiw2ODMxMzExMTAsLTIyNTg5NTU5MSwxODQ3MDU3OTEs
+LTE5ODQ1MDkzOThdfQ==
 -->
