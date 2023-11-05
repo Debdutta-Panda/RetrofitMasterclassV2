@@ -39,11 +39,12 @@ val retrofit = Retrofit
 ## Api Service Instance
 The API service instance in Retrofit is where you put your API interface into action. It connects your defined API endpoints with the actual network requests, making your app's communication with the server possible. It's like the hands-on part of Retrofit that turns your interface into real requests.
 ```kt
+val apiService = retrofit.create(ApiService::class.java)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MTczMjIzLDIwODY5NzU1NjksMTY0Nj
-kxMzQ3LC03NjgzOTA5NTYsLTIwOTE2NjAzMiwtNjM3MzQ2MDIs
-NjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0NzA1NzkxLC0xOTg0NT
-A5Mzk4XX0=
+eyJoaXN0b3J5IjpbNjg1MDcwNjc3LDMwNTE3MzIyMywyMDg2OT
+c1NTY5LDE2NDY5MTM0NywtNzY4MzkwOTU2LC0yMDkxNjYwMzIs
+LTYzNzM0NjAyLDY4MzEzMTExMCwtMjI1ODk1NTkxLDE4NDcwNT
+c5MSwtMTk4NDUwOTM5OF19
 -->
