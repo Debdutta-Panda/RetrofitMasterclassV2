@@ -9,7 +9,7 @@ implementation("com.squareup.retrofit2:retrofit:2.9.0")
 ```
 
 ## Mechanism
-Retrofit has the following steps to call an api
+Retrofit streamlines the integration of web services in Android apps, offering a structured mechanism for handling network requests. This organized approach enhances the efficiency and reliability of communication with external APIs, allowing developers to create robust and scalable applications.
 
 1. Create api interface
 2. Create retrofit instance
@@ -23,5 +23,6 @@ In Retrofit, the API interface is a fundamental part of defining and structuring
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzA1NzkxLC0xOTg0NTA5Mzk4XX0=
+eyJoaXN0b3J5IjpbLTIyNTg5NTU5MSwxODQ3MDU3OTEsLTE5OD
+Q1MDkzOThdfQ==
 -->
