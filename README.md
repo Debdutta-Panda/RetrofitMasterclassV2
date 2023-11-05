@@ -20,11 +20,15 @@ Retrofit streamlines the integration of web services in Android apps, offering a
 ## Api Interface
 In Retrofit, the API interface is a fundamental part of defining and structuring your network requests. It's an interface that specifies the API endpoints, HTTP methods, request parameters, and expected response types.
 ```kt
-
+// example api interface
+interface ApiService{  
+    @GET("path")  
+    fun data(): Call<User>  
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0Nz
-A1NzkxLC0xOTg0NTA5Mzk4XX0=
+eyJoaXN0b3J5IjpbLTYzNzM0NjAyLDY4MzEzMTExMCwtMjI1OD
+k1NTkxLDE4NDcwNTc5MSwtMTk4NDUwOTM5OF19
 -->
