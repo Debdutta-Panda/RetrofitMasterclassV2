@@ -8,12 +8,16 @@ Add the following dependency in module level build gradle file
 implementation("com.squareup.retrofit2:retrofit:2.9.0")
 ```
 
-## Startup Code
+# Mechanism
+Retrofit has a mechanis
 
 1. Create api interface
 2. Create retrofit instance
 3. Create api service instance
-4. 
+4. Call api
+5. Get data
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ1MDkzOThdfQ==
+eyJoaXN0b3J5IjpbLTczMjc1NDgxMywtMTk4NDUwOTM5OF19
 -->
