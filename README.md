@@ -60,20 +60,22 @@ call.enqueue(object: Callback<ResponseBody>{
             val body = response.body()  
             if(body!=null){  
                 val data = body.string()  
-                Log.d("fldkfdfdfd",data)  
+                Log.d("tag",data)  
             }  
         }  
     }  
   
     override fun onFailure(call: Call<ResponseBody>, t: Throwable) {  
-        Log.d("fldkfdfdfd",t.message?:"null message")  
+        Log.d("tag",t.message?:"null message")  
     }  
 })
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAwOTMzMTMsNDI1Mzg4MTA1LC01Mz
-M5MDc1ODgsLTE5MDM5ODMyNzYsMzA1MTczMjIzLDIwODY5NzU1
-NjksMTY0NjkxMzQ3LC03NjgzOTA5NTYsLTIwOTE2NjAzMiwtNj
-M3MzQ2MDIsNjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0NzA1Nzkx
-LC0xOTg0NTA5Mzk4XX0=
+eyJoaXN0b3J5IjpbLTI4NTMzNjcyNywtMTk2MDA5MzMxMyw0Mj
+UzODgxMDUsLTUzMzkwNzU4OCwtMTkwMzk4MzI3NiwzMDUxNzMy
+MjMsMjA4Njk3NTU2OSwxNjQ2OTEzNDcsLTc2ODM5MDk1NiwtMj
+A5MTY2MDMyLC02MzczNDYwMiw2ODMxMzExMTAsLTIyNTg5NTU5
+MSwxODQ3MDU3OTEsLTE5ODQ1MDkzOThdfQ==
 -->
