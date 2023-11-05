@@ -29,7 +29,7 @@ interface ApiService{
 
 ## Retrofit Instance
 A Retrofit instance in Android is a central component of the Retrofit library. It serves as the core configuration hub, responsible for defining how network requests are made. When creating a Retrofit instance, you specify essential details such as the base URL of the API, the converter for data serialization and deserialization (typically JSON), and any custom HTTP client settings. This instance acts as the bridge between your API service interface and the actual HTTP requests, ensuring that the requests are made according to your defined settings. By configuring the Retrofit instance appropriately, you can streamline the entire network communication process, making it efficient, robust, and tailored to your application's specific needs.
-```
+```kt
 val retrofit = Retrofit  
     .Builder()  
     .baseUrl("https://your.site.url")  
@@ -37,9 +37,13 @@ val retrofit = Retrofit
 ```
 
 ## Api Service Instance
+The API service instance in Retrofit is where you put your API interface into action. It connects your defined API endpoints with the actual network requests, making your app's communication with the server possible. It's like the hands-on part of Retrofit that turns your interface into real requests.
+```kt
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Njk3NTU2OSwxNjQ2OTEzNDcsLTc2OD
-M5MDk1NiwtMjA5MTY2MDMyLC02MzczNDYwMiw2ODMxMzExMTAs
-LTIyNTg5NTU5MSwxODQ3MDU3OTEsLTE5ODQ1MDkzOThdfQ==
+eyJoaXN0b3J5IjpbMzA1MTczMjIzLDIwODY5NzU1NjksMTY0Nj
+kxMzQ3LC03NjgzOTA5NTYsLTIwOTE2NjAzMiwtNjM3MzQ2MDIs
+NjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0NzA1NzkxLC0xOTg0NT
+A5Mzk4XX0=
 -->
