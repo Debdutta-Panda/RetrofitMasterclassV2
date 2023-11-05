@@ -75,12 +75,14 @@ call.enqueue(object: Callback<ResponseBody>{
 If you don't have real api then you can use fake/mock/free REST apis. Some free apis are:
 1. Json Placeholder: https://jsonplaceholder.typicode.com/
 2. Reqres: https://reqres.in/
-3. 
+3. Swapi: https://swapi.dev/
+4. Rest Countries: https://restcountries.com/
+5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjU2NTA5OCwtMTQ2NzA2MzY4NywtMj
-g1MzM2NzI3LC0xOTYwMDkzMzEzLDQyNTM4ODEwNSwtNTMzOTA3
-NTg4LC0xOTAzOTgzMjc2LDMwNTE3MzIyMywyMDg2OTc1NTY5LD
-E2NDY5MTM0NywtNzY4MzkwOTU2LC0yMDkxNjYwMzIsLTYzNzM0
-NjAyLDY4MzEzMTExMCwtMjI1ODk1NTkxLDE4NDcwNTc5MSwtMT
-k4NDUwOTM5OF19
+eyJoaXN0b3J5IjpbMTE1MjgwMTk3NywtOTk2NTY1MDk4LC0xND
+Y3MDYzNjg3LC0yODUzMzY3MjcsLTE5NjAwOTMzMTMsNDI1Mzg4
+MTA1LC01MzM5MDc1ODgsLTE5MDM5ODMyNzYsMzA1MTczMjIzLD
+IwODY5NzU1NjksMTY0NjkxMzQ3LC03NjgzOTA5NTYsLTIwOTE2
+NjAzMiwtNjM3MzQ2MDIsNjgzMTMxMTEwLC0yMjU4OTU1OTEsMT
+g0NzA1NzkxLC0xOTg0NTA5Mzk4XX0=
 -->
