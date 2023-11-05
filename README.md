@@ -17,10 +17,10 @@ Retrofit has the following steps to call an api
 4. Call api
 5. Get data
 
-## Cre
+## Api Interface
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzcyOTMzNCwtMTk4NDUwOTM5OF19
+eyJoaXN0b3J5IjpbMTk0MjAwNjg3MywtMTk4NDUwOTM5OF19
 -->
