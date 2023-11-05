@@ -10,7 +10,8 @@ implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
 ## Startup Code
 
-1. Cre
+1. Create api interface
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMzMDYzMTJdfQ==
+eyJoaXN0b3J5IjpbMTc5NzIwODAxMV19
 -->
