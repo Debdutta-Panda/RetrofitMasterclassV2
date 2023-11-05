@@ -53,21 +53,27 @@ There are many way to call an api:
 6. Direct Data
 ```kt
 // using Call Enque method
-val call = apiService.data()
-call.enqueue(object: Callback<ResponseBody>{
-    override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
-        TODO("Not yet implemented")
-    }
-
-    override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
-        TODO("Not yet implemented")
-    }
+val call = apiService.data()  
+call.enqueue(object: Callback<ResponseBody>{  
+    override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {  
+        if(response.isSuccessful){  
+            val body = response.body()  
+            if(body!=null){  
+                val data = body.string()  
+                Log.d("fldkfdfdfd",data)  
+            }  
+        }  
+    }  
+  
+    override fun onFailure(call: Call<ResponseBody>, t: Throwable) {  
+        Log.d("fldkfdfdfd",t.message?:"null message")  
+    }  
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1Mzg4MTA1LC01MzM5MDc1ODgsLTE5MD
-M5ODMyNzYsMzA1MTczMjIzLDIwODY5NzU1NjksMTY0NjkxMzQ3
-LC03NjgzOTA5NTYsLTIwOTE2NjAzMiwtNjM3MzQ2MDIsNjgzMT
-MxMTEwLC0yMjU4OTU1OTEsMTg0NzA1NzkxLC0xOTg0NTA5Mzk4
-XX0=
+eyJoaXN0b3J5IjpbLTE5NjAwOTMzMTMsNDI1Mzg4MTA1LC01Mz
+M5MDc1ODgsLTE5MDM5ODMyNzYsMzA1MTczMjIzLDIwODY5NzU1
+NjksMTY0NjkxMzQ3LC03NjgzOTA5NTYsLTIwOTE2NjAzMiwtNj
+M3MzQ2MDIsNjgzMTMxMTEwLC0yMjU4OTU1OTEsMTg0NzA1Nzkx
+LC0xOTg0NTA5Mzk4XX0=
 -->
